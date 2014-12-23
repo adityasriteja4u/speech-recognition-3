@@ -1,0 +1,55 @@
+﻿生成启动时间为 2014/12/8 22:13:11。
+     1>项目“D:\Learning Material\Courses\5\Speech Recognition\code\project7\project7\project7.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\project7.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt min_edit_dist.cpp model.cpp
+         min_edit_dist.cpp
+     1>min_edit_dist.cpp(99): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>min_edit_dist.cpp(101): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>min_edit_dist.cpp(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>min_edit_dist.cpp(110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>min_edit_dist.cpp(112): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>min_edit_dist.cpp(114): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>min_edit_dist.cpp(119): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+     1>min_edit_dist.cpp(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>min_edit_dist.cpp(264): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>min_edit_dist.cpp(276): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>min_edit_dist.cpp(288): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         model.cpp
+     1>model.cpp(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>model.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>model.cpp(80): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>model.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learning Material\Courses\5\Speech Recognition\code\project7\Release\project7.exe" /NOLOGO blas.lib libf2c.lib lapack.lib portaudio_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\project7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Learning Material\Courses\5\Speech Recognition\code\project7\Release\project7.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learning Material\Courses\5\Speech Recognition\code\project7\Release\project7.lib" /MACHINE:X86 Release\main.obj
+         Release\min_edit_dist.obj
+         Release\model.obj
+         Release\readwave.obj
+         Release\train.obj
+         Release\wav2feat.obj
+         正在生成代码
+         已完成代码的生成
+         project7.vcxproj -> D:\Learning Material\Courses\5\Speech Recognition\code\project7\Release\project7.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Learning Material\Courses\5\Speech Recognition\code\project7\Release\project7.exe;#1" /manifest Release\project7.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\project7.unsuccessfulbuild”。
+         正在对“Release\project7.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Learning Material\Courses\5\Speech Recognition\code\project7\project7\project7.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.07

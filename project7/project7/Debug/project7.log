@@ -1,0 +1,72 @@
+﻿生成启动时间为 2014/12/7 23:09:56。
+     1>项目“D:\Learning Material\Courses\5\Speech Recognition\code\project7\project7\project7.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\project7.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp min_edit_dist.cpp model.cpp train.cpp
+         main.cpp
+         正在生成代码...
+         正在编译...
+         train.cpp
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\train.cpp(25): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 参见“itoa”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\train.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\train.cpp(27): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\train.cpp(79): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 参见“itoa”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\train.cpp(80): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\train.cpp(81): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+         model.cpp
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\model.cpp(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\model.cpp(54): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\model.cpp(185): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\model.cpp(199): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         min_edit_dist.cpp
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(99): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(101): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(112): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(114): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(119): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(273): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(285): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\learning material\courses\5\speech recognition\code\project7\project7\min_edit_dist.cpp(297): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learning Material\Courses\5\Speech Recognition\code\project7\Debug\project7.exe" /NOLOGO blas.lib libf2c.lib lapack.lib portaudio_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\project7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Learning Material\Courses\5\Speech Recognition\code\project7\Debug\project7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learning Material\Courses\5\Speech Recognition\code\project7\Debug\project7.lib" /MACHINE:X86 Debug\main.obj
+         Debug\min_edit_dist.obj
+         Debug\model.obj
+         Debug\readwave.obj
+         Debug\train.obj
+         Debug\wav2feat.obj
+         LINK : 没有找到 D:\Learning Material\Courses\5\Speech Recognition\code\project7\Debug\project7.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         project7.vcxproj -> D:\Learning Material\Courses\5\Speech Recognition\code\project7\Debug\project7.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Learning Material\Courses\5\Speech Recognition\code\project7\Debug\project7.exe;#1" /manifest Debug\project7.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\project7.unsuccessfulbuild”。
+         正在对“Debug\project7.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Learning Material\Courses\5\Speech Recognition\code\project7\project7\project7.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.22

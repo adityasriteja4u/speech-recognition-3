@@ -1,0 +1,58 @@
+﻿生成启动时间为 2014/12/6 17:31:57。
+     1>项目“D:\Learning Material\Courses\5\Speech Recognition\code\project4\project4\project4.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\project4.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt min_edit_dist.cpp model.cpp
+         model.cpp
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\model.cpp(42): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\model.cpp(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\model.cpp(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\model.cpp(155): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\model.cpp(204): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\model.cpp(218): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         min_edit_dist.cpp
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(94): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(98): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(203): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(215): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(226): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(240): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\min_edit_dist.cpp(170): warning C4101: “j”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learning Material\Courses\5\Speech Recognition\code\project4\Debug\project4.exe" /NOLOGO blas.lib libf2c.lib lapack.lib portaudio_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\project4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Learning Material\Courses\5\Speech Recognition\code\project4\Debug\project4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learning Material\Courses\5\Speech Recognition\code\project4\Debug\project4.lib" /MACHINE:X86 Debug\main.obj
+         Debug\min_edit_dist.obj
+         Debug\model.obj
+         Debug\readwave.obj
+         Debug\train.obj
+         Debug\wav2feat.obj
+         LINK : 没有找到 D:\Learning Material\Courses\5\Speech Recognition\code\project4\Debug\project4.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         project4.vcxproj -> D:\Learning Material\Courses\5\Speech Recognition\code\project4\Debug\project4.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Learning Material\Courses\5\Speech Recognition\code\project4\Debug\project4.exe;#1" /manifest Debug\project4.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\project4.unsuccessfulbuild”。
+         正在对“Debug\project4.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Learning Material\Courses\5\Speech Recognition\code\project4\project4\project4.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.91
