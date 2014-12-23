@@ -15,6 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD:project3/project3/project3.vcxproj.filters
     <ClCompile Include="min_edit_dist.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -22,14 +23,24 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="min_edit_dist_wstring.cpp">
+=======
+    <ClCompile Include="wav2feat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="readwave.cpp">
+>>>>>>> ad04601... add project 2-7:project2/project2/project2.vcxproj.filters
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD:project3/project3/project3.vcxproj.filters
     <ClInclude Include="min_edit_dist.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="min_edit_dist_wstring.h">
+=======
+    <ClInclude Include="readwave.h">
+>>>>>>> ad04601... add project 2-7:project2/project2/project2.vcxproj.filters
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

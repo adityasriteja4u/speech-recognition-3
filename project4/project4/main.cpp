@@ -91,7 +91,7 @@ int main()
 		readModels();
 	}
 	testMatch();
-	//recordAndMatch();
+	recordAndMatch();
 
 	return 0;
 }
