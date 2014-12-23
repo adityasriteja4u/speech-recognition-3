@@ -1,9 +1,9 @@
-﻿生成启动时间为 2014/12/8 17:06:42。
+﻿生成启动时间为 2014/12/23 18:33:50。
      1>项目“D:\Learning Material\Courses\5\Speech Recognition\code\project4\project4\project4.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Release\project4.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp min_edit_dist.cpp model.cpp train.cpp
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp min_edit_dist.cpp model.cpp readwave.cpp train.cpp wav2feat.cpp
          main.cpp
      1>main.cpp(17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
@@ -54,6 +54,23 @@
                  d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
      1>model.cpp(217): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         readwave.cpp
+     1>readwave.cpp(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>readwave.cpp(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>readwave.cpp(67): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>readwave.cpp(76): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>readwave.cpp(88): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>readwave.cpp(110): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>readwave.cpp(146): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>readwave.cpp(177): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
          train.cpp
      1>train.cpp(23): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
@@ -71,6 +88,23 @@
                  d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
      1>train.cpp(88): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         wav2feat.cpp
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(36): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(37): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(73): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(146): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(158): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(176): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(199): warning C4244: “初始化”: 从“const double”转换到“int”，可能丢失数据
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(319): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+     1>d:\learning material\courses\5\speech recognition\code\project4\project4\endpointing.h(323): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 参见“kbhit”的声明
+     1>wav2feat.cpp(78): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>wav2feat.cpp(108): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>wav2feat.cpp(108): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>wav2feat.cpp(108): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>wav2feat.cpp(164): warning C4018: “<”: 有符号/无符号不匹配
+     1>wav2feat.cpp(165): warning C4018: “<”: 有符号/无符号不匹配
        Link:
          d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learning Material\Courses\5\Speech Recognition\code\project4\Release\project4.exe" /NOLOGO blas.lib libf2c.lib lapack.lib portaudio_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\project4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Learning Material\Courses\5\Speech Recognition\code\project4\Release\project4.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learning Material\Courses\5\Speech Recognition\code\project4\Release\project4.lib" /MACHINE:X86 Release\main.obj
          Release\min_edit_dist.obj
@@ -90,4 +124,4 @@
 
 生成成功。
 
-已用时间 00:00:01.34
+已用时间 00:00:05.27

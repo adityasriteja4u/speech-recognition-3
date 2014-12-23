@@ -1,4 +1,4 @@
-﻿生成启动时间为 2014/11/18 16:03:55。
+﻿生成启动时间为 2014/12/23 18:34:51。
      1>项目“D:\Learning Material\Courses\5\Speech Recognition\code\project5\project5\project5.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Release\project5.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
@@ -86,4 +86,4 @@
 
 生成成功。
 
-已用时间 00:00:02.73
+已用时间 00:00:01.29
